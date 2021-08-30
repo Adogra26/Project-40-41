@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="libraries/p5.js"></script>
+		<script src="libraries/p5.dom.min.js"></script>
+		<script src="libraries/p5.sound.min.js"></script>
+		<script src="libraries/matter.js"></script>
+		<script src="libraries/p5.play.js"></script>
+
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-database.js"></script>
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDg7yeG3ZYkMK896bj1cWoNIrdtM4JhzSY",
+    authDomain: "fruit-collector-33f47.firebaseapp.com",
+    projectId: "fruit-collector-33f47",
+    storageBucket: "fruit-collector-33f47.appspot.com",
+    messagingSenderId: "899612729863",
+    appId: "1:899612729863:web:afc4457ff5bfdc8c39c0a2",
+    measurementId: "G-97JTSW7Z3S"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+		<!--Add Your JS files here -->
+		<script src="js/player.js"></script>
+		<script src="js/form.js"></script>
+		<script src="js/game.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<script src="sketch.js"></script>
+	</body>
+</html>
